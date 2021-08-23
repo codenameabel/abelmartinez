@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfessionalMe from "../../assets/images/ProfessionalMe";
+import ProfessionalMe from "../../assets/images/ProfessionalMe.jpg";
 
 function About() {
     return (
