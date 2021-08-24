@@ -10,7 +10,7 @@ function Resume() {
             <div className="col-lg-6 mx-auto">
                 <p className="lead mb-4" style={{ color: '#1a659e' }}>Looking for new opportunities to grow my career as a web engineer!</p>
                 <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                    <a href={resumeDoc} download="patrick-lago-resume" type="button" className="btn btn-lg px-4 me-sm-3"  style={{ background: '#ff6b35' }}><span style={{ color: '#ffffff' }}>Download Here</span></a>
+                    <a href={resumeDoc} download="Abel-Martinez-resume" type="button" className="btn btn-lg px-4 me-sm-3"  style={{ background: '#ff6b35' }}><span style={{ color: '#ffffff' }}>Download Here</span></a>
                 </div>
             </div>
             <div className="overflow-hidden">
