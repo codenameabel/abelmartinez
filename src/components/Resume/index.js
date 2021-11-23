@@ -1,6 +1,6 @@
 import React from 'react';
 import resume from "../../assets/images/Resume-Picture.png";
-import resumeDoc from "../../assets/documents/abel-martinez-resume.pdf";
+import resumeDoc from "../../assets/documents/abel-martinez-resume1.docx";
 import { Github, Linkedin } from 'react-bootstrap-icons';
 
 function Resume() {
