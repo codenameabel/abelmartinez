@@ -1,12 +1,12 @@
 import React from 'react';
-import ProfessionalMe from "../../assets/images/ProfessionalMe.jpg";
+import ProfessionalMe from "../../assets/images/portrait2022.jpg"
 
 function About() {
     return (
         <div className="container col-xxl-8 px-4 py-5">
             <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <div className="col-10 col-sm-8 col-lg-6">
-                    <img src={ProfessionalMe} className="d-block mx-lg-auto img-fluid" alt="" width="80%"
+                    <img src={ProfessionalMe} className="d-block rounded-circle mx-lg-auto img-fluid" alt="" width="80%"
                         height="400" loading="lazy"/>
                 </div>
                 <div className="col-lg-6">

@@ -1,22 +1,24 @@
 import React from 'react';
-import resume from "../../assets/images/Resume-Picture.png";
-import resumeDoc from "../../assets/documents/abel-martinez-resume1.docx";
+import resume from "../../assets/images/pexels-wewe-yang-4508643.jpg";
+import resumeDoc from "../../assets/documents/FullStack_Resume.docx";
 import { Github, Linkedin } from 'react-bootstrap-icons';
 
 function Resume() {
     return (
         <div className="px-4 pt-5 my-5 text-center">
+
+            <div className="overflow-hidden">
+                <div className="container px-5">
+                    <img src={resume} className="img-fluid border rounded-3 shadow-lg" alt="Resume"
+                        width="700" height="500" loading="lazy" />
+                </div>
+            </div>
+
             <h1 className="display-5 fw-bold" style={{ color: '#004e89' }}>Resume</h1>
             <div className="col-lg-6 mx-auto">
                 <p className="lead mb-4" style={{ color: '#1a659e' }}>Looking for new opportunities to grow my career as a web engineer!</p>
                 <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
                     <a href={resumeDoc} download="Abel-Martinez-resume" type="button" className="btn btn-lg px-4 me-sm-3"  style={{ background: '#ff6b35' }}><span style={{ color: '#ffffff' }}>Download Here</span></a>
-                </div>
-            </div>
-            <div className="overflow-hidden">
-                <div className="container px-5">
-                    <img src={resume} className="img-fluid border rounded-3 shadow-lg" alt="Resume"
-                        width="700" height="500" loading="lazy" />
                 </div>
             </div>
             
